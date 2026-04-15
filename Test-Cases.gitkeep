@@ -1,1 +1,24 @@
 
+# Gateway & Protocol Testing – Senior Perspective
+
+## Communication Paths Covered
+- Serial devices via gateways
+- Ethernet-based devices
+- Serial-to-Ethernet conversions
+
+## Common Field Failure Patterns
+- Incorrect IP or subnet configuration
+- Slave ID conflicts
+- Physical wiring issues
+- Timeout vs device offline confusion
+
+## Testing Focus Areas
+- Correct distinction between timeout and offline states
+- System behavior during intermittent communication
+- Retry, timeout, and recovery logic
+- Clear alarm messaging for field engineers
+
+## Troubleshooting Mindset
+Protocol testing is not only about validation,
+but about making **field diagnosis faster and safer**.
+``
