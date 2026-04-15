@@ -1,23 +1,27 @@
-# SCADA System – Manual Testing
+# SCADA System – Senior Test Engineering Portfolio
 
-## Overview
-This repository demonstrates manual testing activities
-performed on a SCADA-based industrial system.
+This repository represents how I approach testing of
+SCADA, industrial control, and cooling infrastructure systems
+from a **Senior Test Engineer and domain expert perspective**.
 
-## Testing Scope
-- HMI validation
-- Alarm & Event testing
-- Communication testing
-- Regression and System testing
+This is **not a client project repository** and contains
+no proprietary or confidential information.
 
-## Protocols Covered
-- Modbus
-- TCP/IP
+## What This Repository Focuses On
+- System-level SCADA testing
+- Control logic validation
+- Communication and protocol reliability
+- Safety, stability, and fail-safe behavior
+- Release readiness and long-run testing
+- Quality leadership and defect prevention
 
-## Tools Used
-- JIRA
-- Azure DevOps
-- Wireshark
+## Domains Covered
+- SCADA & Industrial Control Systems
+- Device Drivers & Gateways
+- Serial / Ethernet / Protocol-based communication
+- Direct Liquid Cooling (DLC) systems
+- Long-run, stress, and recovery testing
 
-## Role
-Senior Test Engineer / Quality Owner
+The content here is based on real project experience
+and demonstrates **how a senior engineer thinks**,  
+not how a single project was executed.
