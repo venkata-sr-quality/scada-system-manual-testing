@@ -1,1 +1,46 @@
+# SCADA Test Strategy – Senior Test Engineer View
+
+## Why Test Strategy Is Critical in SCADA
+In SCADA and industrial systems, incorrect software behavior
+can result in:
+- Hardware damage
+- Loss of data
+- Unsafe operation
+- Long downtime
+
+Therefore, testing must be **risk-driven**, not feature-driven.
+
+## Senior Testing Philosophy
+Testing priority order:
+1. Safety & hardware protection
+2. System stability & continuity
+3. Correct control logic behavior
+4. Communication reliability
+5. Data integrity & logging
+6. UI and operator visibility
+
+## Entry Criteria (Before Testing Starts)
+- Code review and unit validation evidence available
+- Basic smoke checks completed
+- Hardware, firmware, and driver versions frozen
+- Gateways and communication paths configured and stable
+- Scope and assumptions clarified
+
+## Exit Criteria (Release Readiness)
+- No open safety or stability defects
+- Fail-safe behavior validated
+- Upgrade, repair, uninstall verified
+- Long-run stability observed
+- Known risks documented and accepted
+
+## Multi-Level Testing Approach
+- Functional testing for expected behavior
+- Integration testing for drivers and gateways
+- System testing with real hardware
+- Regression testing based on change impact
+- Long-run testing to detect degradation
+
+## Senior Insight
+Test completion is **not measured by execution count**,
+but by confidence in system behavior under failure conditions.
 
