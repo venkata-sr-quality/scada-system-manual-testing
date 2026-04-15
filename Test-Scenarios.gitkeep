@@ -1,1 +1,28 @@
+# SCADA Operational & Failure Test Scenarios
 
+## Normal Operation Scenarios
+- Stable communication with field devices
+- Continuous data acquisition and logging
+- Control loops maintaining setpoints
+- Operator commands reflected correctly
+
+## Degraded Operation Scenarios
+- Partial sensor availability
+- Reduced pump or device availability
+- Communication delays or retries
+- System remains operational with warnings
+
+## Failure & Recovery Scenarios
+- Gateway or protocol communication loss
+- Device driver failure
+- Power interruption and restart
+- Safe fallback and recovery without data corruption
+
+## Long-Run Stability Scenarios
+- Continuous operation for 72–168 hours
+- Monitoring memory, CPU, and logs
+- Verifying no drift, freeze, or degradation
+
+## Senior Insight
+Most critical defects surface during **state transitions,
+recovery, and long-run operation**, not during happy paths.
